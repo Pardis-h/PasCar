@@ -1,0 +1,7 @@
+.container{
+    background-color: chartreuse;
+    border-radius: 5px;
+    max-width:fit-content;
+    padding: 12px 20px;
+    margin: 0 auto 3rem;
+}

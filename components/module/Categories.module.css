@@ -1,0 +1,18 @@
+.container{
+    margin: 3rem auto;
+    max-width:fit-content;
+    padding: 12px 20px;
+    box-shadow:2px 2px 9px 0px #afafaf6e;
+    border-radius: 10px;
+    display: flex;
+    gap:1rem;
+}
+.container a{
+    background-color: chartreuse;
+    padding: 12px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:1rem;
+}

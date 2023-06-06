@@ -1,0 +1,36 @@
+.carCard{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    flex-wrap: wrap;
+    box-shadow:2px 2px 9px 0px #afafaf6e;
+    border-radius: 10px;
+    width: fit-content;
+    gap: .5rem;
+}
+.carCard img{
+    max-width: 300px;
+    object-fit:cover;
+}
+.carCard h3{
+    line-height: 2;
+}
+.carCard >p{
+    color:gray;
+}
+.carCard .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+.carCard .footer >p{
+    background-color: chartreuse;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.carCard .footer .location{
+    display: flex; 
+    align-items: center;
+    gap: 4px;
+}
