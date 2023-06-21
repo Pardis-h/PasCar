@@ -13,7 +13,7 @@ function Layout({ children }) {
       <main className={styles.container}>{children}</main>
       <footer className={styles.footer}>
         <p>
-          <a href="https://github.com/Pardis-h/" target="_blank">
+          <a href="https://github.com/Pardis-h/" target="_blank" rel="noreferrer">
             Pardis Haghdoust
           </a>
           {" "}| Next.js course Project &copy;
